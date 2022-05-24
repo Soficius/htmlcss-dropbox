@@ -15,31 +15,92 @@ body{
     display: flex;
     flex-direction: row;
 }
+.margin.flex-c-row>*{
+    margin-right: 1em;
+    margin-left: 1em;
+}
+.margin.flex-c-row>*:first-child{
+    margin-right: 1em;
+    margin-left: 0;
+}
+.margin.flex-c-row>*:last-child{
+    margin-right: 0;
+    margin-left: 1em;
+}
 .flex-c-column{
     display: flex;
     flex-direction: column;
 }
+.margin.flex-c-column>*{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.margin.flex-c-column>*:first-child{
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+.margin.flex-c-column>*:last-child{
+    margin-top: 1em;
+    margin-bottom: 0;
+}
 .flex-center{
     justify-content: center;
-    text-align: center;
     align-items: center;
+}
+.flex-80{
+    flex: 80%;
 }
 .flex-70{
     flex: 70%;
 }
+.flex-60{
+    flex: 60%;
+}
+.flex-50{
+    flex: 50%;
+}
+.flex-40{
+    flex: 40%;
+}
+.flex-33{
+    flex: 33%;
+}
 .flex-30{
     flex:30%
+}
+.flex-20{
+    flex: 20%;
 }
 .align-center{
     align-items: center;
 }
+.self-start{
+    align-self: flex-start;
+}
 .pad-rl20{
     padding: 0 20%;
 }
+
+nav>*>*{
+    text-decoration: none;
+    color: black
+}
+.btn-blue{
+    color:white;
+    background-color:#0061ff;
+    padding: 5px;
+    border-color: #0061ff;
+}
+.btn-white{
+    color: black;
+    background-color: white;
+    padding: 5px;
+}
+
 /* header */
 header{
     background-color:#b4d0e7;
-    height: 530px;
+    height: 618px;
 }
 nav{
     background-color: white;
@@ -49,22 +110,76 @@ nav{
 .logo{
     padding: 1em;
 }
-
 nav>*:first-child>*{
     margin-left:40px;
 }
 nav>*:last-child>*{
     margin-right: 40px;
 }
-
 .img img{
     width: 100%;
 }
 .title{
     font-size: 4em;
+    font-weight: 900 bolder;
+    padding-top: 0.8em;
     padding-bottom: 0.8em;
 }
 #jumbo>*{
     margin-bottom: 1em;
     font-size: 0.8em;
+}
+/* main */
+/* first-section */
+main{
+    height: 100%;
+}
+
+main section{
+    padding: 0 20%
+}
+.card{
+    border: 1px solid #b5b5b5;
+    text-align: left;
+}
+.card .ctitle{
+    border-bottom: 1px solid #b5b5b5;
+    padding: 6px;
+}
+.card>*{
+    padding:1em;
+}
+.card hr{
+    padding: 0;
+    margin: 1em;
+    width: 30%;
+    left: 5%;
+    position: relative;
+}
+ul{
+    list-style: none;
+}
+#partner{
+   width: 100%;
+}
+.second{
+    margin-top: 8em;
+}
+li{
+    margin-bottom: 20px;
+}
+.fa-check {
+    color: blue;
+    font-weight: bolder;
+}
+h2{
+    font-weight: bolder;
+    font-size: 39px;
+}
+section{
+    margin-top: 12em;
+}
+h4 , h3{
+    font-size: 20px;
+    font-weight: bolder;
 }
