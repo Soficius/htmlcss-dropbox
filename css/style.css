@@ -44,8 +44,7 @@ body{
     margin-bottom: 0;
 }
 .flex-center{
-    justify-content: center;
-    align-items: center;
+    justify-content: center
 }
 .flex-80{
     flex: 80%;
@@ -97,6 +96,7 @@ nav>*>*{
     padding: 5px;
 }
 
+
 /* header */
 header{
     background-color:#b4d0e7;
@@ -129,6 +129,9 @@ nav>*:last-child>*{
     margin-bottom: 1em;
     font-size: 0.8em;
 }
+section{
+    margin-top: 8em;
+}
 /* main */
 /* first-section */
 main{
@@ -159,11 +162,9 @@ main section{
 ul{
     list-style: none;
 }
+/* second-section */
 #partner{
    width: 100%;
-}
-.second{
-    margin-top: 8em;
 }
 li{
     margin-bottom: 20px;
@@ -176,10 +177,14 @@ h2{
     font-weight: bolder;
     font-size: 39px;
 }
-section{
-    margin-top: 12em;
-}
-h4 , h3{
-    font-size: 20px;
+h4{
+    font-size: 24px;
     font-weight: bolder;
+}
+/* third section */
+.img-small{
+max-width: 100%;
+}
+.fourth{
+padding: 5em 0;
 }
