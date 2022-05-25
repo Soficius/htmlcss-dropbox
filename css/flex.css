@@ -1,0 +1,91 @@
+.flex-c-row{
+    display: flex;
+    flex-direction: row;
+}
+.margin.flex-c-row>*{
+    margin-right: 1em;
+    margin-left: 1em;
+}
+.margin.flex-c-row>*:first-child{
+    margin-right: 1em;
+    margin-left: 0;
+}
+.margin.flex-c-row>*:last-child{
+    margin-right: 0;
+    margin-left: 1em;
+}
+
+.flex-c-column{
+    display: flex;
+    flex-direction: column;
+}
+.margin.flex-c-column>*{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.margin.flex-c-column>*:first-child{
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+.margin-s.flex-c-column>*:last-child{
+    margin-top: 1em;
+    margin-bottom: 0;
+}
+.margin-s.flex-c-column>*{
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+}
+.margin-s.flex-c-column>*:first-child{
+    margin-top: 0;
+    margin-bottom: 0.3em;
+}
+.margin-s.flex-c-column>*:last-child{
+    margin-top: 0.3em;
+    margin-bottom: 0;
+}
+
+.align-center{
+    align-items: center;
+}
+.align-base{
+    align-items: baseline;
+}
+.self-start{
+    align-self: flex-start;
+}
+.self-center{
+    align-self: center;
+}
+.flex-center{
+    justify-content: center
+}
+.flex-90{
+    flex: 90%;
+}
+.flex-80{
+    flex: 80%;
+}
+.flex-70{
+    flex: 70%;
+}
+.flex-60{
+    flex: 60%;
+}
+.flex-50{
+    flex: 50%;
+}
+.flex-40{
+    flex: 40%;
+}
+.flex-33{
+    flex: 33%;
+}
+.flex-30{
+    flex:30%
+}
+.flex-20{
+    flex: 20%;
+}
+.flex-10{
+    flex: 10%;
+}
